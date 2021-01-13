@@ -1,0 +1,36 @@
+body {
+    display: block;
+    text-align: center;
+}
+
+form{
+    padding: 10px;
+}
+
+form input{
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+
+form input::placeholder{
+    font-size: 20px;
+}
+
+.showing{
+    display: block;
+}
+
+.form,
+.welcome{
+    display: none;
+}
+
+h4{
+    padding: 20px;
+    font-size: 20px;
+}
+
+button{
+    border: none;
+}
